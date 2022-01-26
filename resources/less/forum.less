@@ -1,0 +1,33 @@
+.item-discussion-views {
+  font-size: 14px;
+  position: absolute;
+  right: 37px;
+  color: var(--muted-color);
+  text-decoration: none;
+
+  .icon {
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 767px) {
+  .item-discussion-views
+  {
+    font-size: 12px;
+    padding: 2px 6px;
+    position: absolute;
+    right: 58px;
+    top: 35px;
+    background: var(--control-bg);
+  }
+}
+
+@media @phone {
+  .item-discussion-views {
+    margin-right: -43px;
+
+    .icon {
+      display: none;
+    }
+  }
+}
